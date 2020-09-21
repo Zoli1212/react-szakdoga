@@ -84,7 +84,7 @@ export class AddCapability extends Component {
             </div>
             <input
               type="submit"
-              value="Add Capability"
+              value="Hozzáad"
               className="btn btn-primary btn-block"
             />
           </form>

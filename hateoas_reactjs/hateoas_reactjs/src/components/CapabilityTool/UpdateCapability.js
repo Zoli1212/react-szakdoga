@@ -122,7 +122,7 @@ export class UpdateCapability extends Component {
             </div>
             <input
               type="submit"
-              value="Update Capability"
+              value="Frissíts"
               className="btn btn-danger btn-block"
             />
           </form>

@@ -47,7 +47,7 @@ export class AddButton extends Component {
               onClick={this.closeModal}
             >
               <i className="far fa-times-circle mr-1 " />
-              Close Modal
+              Vissza
             </button>
             <AddCapability closeModal={this.closeModal}/>
           </Modal>
