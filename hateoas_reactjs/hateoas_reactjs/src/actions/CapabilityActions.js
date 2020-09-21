@@ -16,7 +16,7 @@ import { GET_CAPABILITIES,
     baseURL: "http://localhost:8080/dashboard"
   });
   const HerokuInstance = axios.create({
-    baseUrl: ""
+    baseURL: ""
   });
 
   export const getAllCapabilities = () => async dispatch => {
