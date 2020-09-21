@@ -77,12 +77,12 @@ export class UpdateCapability extends Component {
     return (
       <div className="card mb-3">
         <div className="card-header bg-danger text-light">
-          Update Capability
+          Frissítés
         </div>
         <div className="card-body">
           <form onSubmit={this.onSubmit}>
             <div className="form-group">
-              <label htmlFor="techStack">Technology Stack</label>
+              <label htmlFor="techStack">Technológiai tudás</label>
               <input
                 type="text"
                 name="techStack"
@@ -98,7 +98,7 @@ export class UpdateCapability extends Component {
             </div>
             <div className="form-group">
               <label htmlFor="numOfDevelopers">
-                Total Developers in Capability
+                Összes keresett programozó
               </label>
               <input
                 type="number"
@@ -110,7 +110,7 @@ export class UpdateCapability extends Component {
             </div>
             <div className="form-group">
               <label htmlFor="numOfAvailableDevelopers">
-                Available developers for hire
+                Adatbázisban elérhető programozó
               </label>
               <input
                 type="number"

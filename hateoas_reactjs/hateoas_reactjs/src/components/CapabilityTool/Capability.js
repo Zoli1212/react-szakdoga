@@ -34,13 +34,13 @@ export class Capability extends Component {
 
         <ul className="list-group">
           <li className="list-group-item bg-light text-primary">
-            Technology Stack: {techStack}
+            Technológiai tudás: {techStack}
           </li>
           <li className="list-group-item bg-light  text-primary">
-            Total Developers in Capability: {numOfDevelopers}
+            Összes keresett programozó: {numOfDevelopers}
           </li>
           <li className="list-group-item bg-light  text-primary">
-            Available developers for hire: {numOfAvailableDevelopers}
+            Elérhető programozók száma: {numOfAvailableDevelopers}
           </li>
         </ul>
       </div>

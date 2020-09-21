@@ -44,11 +44,11 @@ export class AddCapability extends Component {
     const { errors } = this.state;
     return (
       <div className="card mb-3">
-        <div className="card-header bg-primary text-light">Add Capability</div>
+        <div className="card-header bg-primary text-light">Programnyelvek</div>
         <div className="card-body">
           <form onSubmit={this.onSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Technology Stack</label>
+              <label htmlFor="name">Technológia ismeretek</label>
               <input
                 type="text"
                 name="techStack"
@@ -63,7 +63,7 @@ export class AddCapability extends Component {
               )}
             </div>
             <div className="form-group">
-              <label htmlFor="email">Total Developers in Capability</label>
+              <label htmlFor="email">Keresett programozók száma</label>
               <input
                 type="number"
                 name="numOfDevelopers"
@@ -73,7 +73,7 @@ export class AddCapability extends Component {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="name">Available developers for hire</label>
+              <label htmlFor="name">Adatbázisban nyílvántartott programozók száma</label>
               <input
                 type="number"
                 name="numOfAvailableDevelopers"

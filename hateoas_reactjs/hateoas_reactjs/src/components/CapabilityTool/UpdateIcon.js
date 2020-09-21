@@ -44,7 +44,7 @@ class UpdateIcon extends Component {
             onClick={this.closeModal}
           >
             <i className="far fa-times-circle mr-1 " />
-            Close Modal
+            Vissza
           </button>
           <UpdateCapability closeModal={this.closeModal} id={this.props.id} />
         </Modal>

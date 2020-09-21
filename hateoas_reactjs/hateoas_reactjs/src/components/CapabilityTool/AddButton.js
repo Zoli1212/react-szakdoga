@@ -34,7 +34,7 @@ export class AddButton extends Component {
             className="btn btn-outline-primary mb-3 text-left"
             onClick={this.openModal}
           >
-            <i className="far fa-plus-square" /> Add Capability
+            <i className="far fa-plus-square" /> Keresett készségek
           </button>
           <Modal 
           isOpen={this.state.modalIsOpen} 
