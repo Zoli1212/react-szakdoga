@@ -12,16 +12,16 @@ import { GET_CAPABILITIES,
     type: GET_ERRORS,
     payload: {}
   });
-  const instance = axios.create({
-    baseURL: "http://localhost:8080/dashboard"
-  });
+ // const instance = axios.create({
+  //  baseURL: "http://localhost:8080/dashboard"
+ // });
   const HerokuInstance = axios.create({
-    baseURL: ""
+    baseURL: "https://reactbackszakdoga.herokuapp.com/dashboard/"
   });
 
   export const getAllCapabilities = () => async dispatch => {
-    await instance
-      .get()
+    await HerokuInstance
+    .get()
       .then(function(res) {
         dispatch({
           type: GET_CAPABILITIES,
